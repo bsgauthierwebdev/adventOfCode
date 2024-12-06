@@ -80,33 +80,3 @@ function findLikeNumbers() {
 }
 
 console.log(findLikeNumbers())
-
-
-
-
-
-// const fs = require('fs')
-
-// // Read data from the file
-// const rawData = fs.readFileSync('./data.txt', 'utf-8')
-
-// // Split the data into lines and process each line
-// const lines = rawData.trim().split('\n')
-
-// // Initialize the arrays
-// const arr1 = []
-// const arr2 = []
-
-// // Process each line
-// lines.forEach(line => {
-//     // Split by whitespace & convert to numbers
-//     const [left, right] = line.trim().split(/\s+/).map(Number) 
-//     // Add to arrays if valid number
-//     if (!isNaN(left)) arr1.push(left)
-//     if (!isNaN(right)) arr2.push(right)
-// })
-
-// // Output the results
-// console.log(lines)
-// // console.log('Array 1: ', arr1)
-// // console.log('Array 2: ', arr2)
